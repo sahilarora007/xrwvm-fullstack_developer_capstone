@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Dealerships</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #40c4c4;
+            overflow: hidden;
+            padding: 14px 20px;
+        }
+
+        .navbar a {
+            float: left;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 14px 16px;
+        }
+
+        .navbar a.active {
+            background-color: #2e9a9a;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .contact-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .info-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .info-box {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+        .info-box h3 {
+            color: #40c4c4;
+            margin-bottom: 8px;
+        }
+
+        .info-box p {
+            margin: 4px 0;
+        }
+
+        @media (max-width: 600px) {
+            .info-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="/">Home</a>
+    <a href="/about/">About Us</a>
+    <a class="active" href="/contact/">Contact Us</a>
+</div>
+
+<div class="container">
+    <img class="contact-image" src="https://images.unsplash.com/photo-1574023240744-64c47c8c0676?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Dealership Image">
+    
+    <h1>Contact Us</h1>
+    
+    <div class="info-section">
+        <div class="info-box">
+            <h3>Customer Support</h3>
+            <p>Email: support@bestcars.com</p>
+            <p>Phone: +1-800-123-4567</p>
+        </div>
+
+        <div class="info-box">
+            <h3>National Advertising</h3>
+            <p>Email: nationalsales@bestcars.com</p>
+            <p>PR: pr@bestcars.com</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Head Office</h3>
+            <p>312-611-1111</p>
+            <p>Chicago, IL</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Partner With Us</h3>
+            <p><a href="https://growwithbestcars.com">growwithbestcars.com</a></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
